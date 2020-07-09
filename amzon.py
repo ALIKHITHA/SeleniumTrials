@@ -5,11 +5,11 @@ driver.get("https:\\www.amazon.in")
 x=driver.find_element_by_xpath('//*[@id="nav-link-accountList"]/span[2]')#login step strts
 x.click()
 
-eml=driver.find_element_by_id('ap_email').send_keys("7680872646")
+eml=driver.find_element_by_id('ap_email').send_keys("8888888888")
 
 continuebutton=driver.find_element_by_id('continue').click()
 
-pwd=driver.find_element_by_id("ap_password").send_keys("likhiamazon")
+pwd=driver.find_element_by_id("ap_password").send_keys("123@34")
 
 loginbutton=driver.find_element_by_xpath('//*[@id="signInSubmit"]').click()
 
