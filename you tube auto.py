@@ -19,12 +19,3 @@ searchbutton=driver.find_element_by_xpath('//*[@id="search-icon-legacy"]')
 searchbutton.click()
 select=driver.find_element_by_xpath('//*[@id="dismissable"]')#first serach mov is played
 select.click()
-##search.send_keys(Keys.RETURN)#Keys.RETURN K is captital
-##assert "No result found." not in driver.page_source
-##
-
-##from selenium import webdriver
-##
-##browser = webdriver.Chrome()
-##browser.get('http://seleniumhq.org/')
-
